@@ -32,4 +32,4 @@ for y_i in range(num_rows):
 #print('# =========================================')
 
 for pin in range(0,len(p)):
-	print('  (pad {} thru_hole circle (at {:.2f} {:.2f}) (size 1.7 1.7) (drill 1.05) (layers *.Cu *.Mask))'.format(pin+1, p[pin].x, p[pin].y))
+	print('  (pad {} thru_hole circle (at {:.2f} {:.2f}) (size 1.35 1.35) (drill 1.05) (layers *.Cu *.Mask))'.format(pin+1, p[pin].x, p[pin].y))
